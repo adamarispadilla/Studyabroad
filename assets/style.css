@@ -9,7 +9,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url('postcard_image.jpg');
+    background-image: url('assets/postcard_image.jpg');
     background-size: cover;
     background-position: center;
 }
