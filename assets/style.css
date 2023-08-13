@@ -36,20 +36,6 @@ nav li {
     margin: 5px 0;
 }
 
-/* Style the "Reflections" and "About Me" buttons */
-nav li:nth-child(3),
-nav li:nth-child(4) {
-    display: inline-block;
-    margin-left: 10px;
-}
-
 nav a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #0056b3;
+    text-decoration:
 }
