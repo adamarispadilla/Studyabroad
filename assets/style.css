@@ -13,11 +13,12 @@ body {
 
 header {
     display: flex;
-
+    align-items: flex-start;
 }
 
 h1 {
     font-size: 2.5rem;
+    padding-left: 2%;
 }
 
 
