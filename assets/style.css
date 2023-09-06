@@ -13,8 +13,6 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
 
 }
 
@@ -23,16 +21,16 @@ h1 {
 }
 
 
+nav{
+    margin-left: auto;
 
+}
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    position: absolute;
-    top: 20px; /* Adjust this value as needed */
-    right: 20px;
+   
 }
-
 
 
 nav a {
