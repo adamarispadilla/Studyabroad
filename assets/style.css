@@ -23,6 +23,8 @@ h1 {
     font-size: 2.5rem;
 }
 
+
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -32,9 +34,7 @@ nav ul {
     right: 20px;
 }
 
-nav li {
-    margin: 5px 0;
-}
+
 
 nav a {
     text-decoration: none;
