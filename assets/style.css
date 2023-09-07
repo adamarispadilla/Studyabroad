@@ -190,10 +190,6 @@ main {
     transform: rotateY(180deg);
 }
 
-.square:hover .front {
-  /* Add glow effect on hover */
-  box-shadow: 0 0 20px rgba(0, 123, 255, 0.7);
-}
 
 .square.flipped .front {
 
