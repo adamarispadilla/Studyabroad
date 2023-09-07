@@ -148,8 +148,8 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    max-width: 800px;
-    margin: -150px auto 0;
+    max-width: 100%;
+    margin: -300px auto 0;
 
 }
 
@@ -179,24 +179,33 @@ main {
 
 .back {
   background-color: #f0f0f0;
-  color: #333;
   transform: rotateY(180deg);
-  /* Additional back face styling */
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+
 }
 
 .face.back {
     background-color: #fff; 
     color: #333;
     transform: rotateY(180deg);
+
 }
 
 
 .square.flipped .front {
-
   transform: rotateY(180deg);
 }
 
 .square.flipped .back {
   transform: rotateY(0deg);
   color: black;
+  font-size: 1rem;
+}
+
+.card-content{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
