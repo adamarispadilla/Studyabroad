@@ -55,3 +55,32 @@ main {
     padding: 5%;
 }
 
+/* tooltip styling */
+
+.photo-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.photo-container img {
+  position: relative;
+}
+
+.photo-container img::after {
+  content: attr(alt);
+  position: absolute;
+  bottom: -25px; /* Adjust the distance from the image */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none; /* Ensures the tooltip doesn't interfere with clicks */
+}
+
+.photo-container img:hover::after {
+  opacity: 1;
