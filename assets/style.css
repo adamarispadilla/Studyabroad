@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-
 }
 
 .container {
@@ -209,4 +208,19 @@ main {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
+}
+
+
+/*page 3*/
+.background-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.background-box img {
+    width: 150px; 
+    margin-right: 20px; 
 }
