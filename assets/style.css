@@ -75,44 +75,41 @@ main {
 }
 
 .tooltip-text-first {
-  position: absolute;
-  top: -30%; 
-  transform: translateX(-50%);
-  background-color: rgb(83 132 208 / 70%);
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease; 
-  transform-origin: center top; 
+    position: absolute;
+    top: -30%;
+    transform: translateX(-50%);
+    color: #28282866;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease;
+    transform-origin: center top;
+    box-shadow: inset 1px 1px 100px 0px rgb(48 123 255);
 }
 
 .tooltip-text-below {
-  position: absolute;
-  top: 90%; 
-  left:50%;
-  transform: translateX(-50%);
-  background-color: rgb(83 132 208 / 70%);
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease; 
-  transform-origin: center top; 
+    position: absolute;
+    top: 90%; 
+    left:50%;
+    transform: translateX(-50%);
+    color: #28282866;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease;
+    transform-origin: center top;
+    box-shadow: inset 1px 1px 100px 0px rgb(48 123 255);
 }
 
 .tooltip-text-right{
-  position: absolute;
-  top: -20%; 
-  left:130%;
-  transform: translateX(-50%);
-  background-color: rgb(83 132 208 / 70%);
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease; 
-  transform-origin: center top; 
+     position: absolute;
+     top: -20%; 
+     left:130%;
+    transform: translateX(-50%);
+    color: #28282866;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease;
+    transform-origin: center top;
+    box-shadow: inset 1px 1px 100px 0px rgb(48 123 255);
 }
 
 .tooltip:hover {
