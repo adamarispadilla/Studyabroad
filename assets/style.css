@@ -142,57 +142,65 @@ main {
 
 /*page 2*/
 
-.square-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #f0f0f0;
 
-}
+
 .square-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    max-width: 600px;
+    max-width: 300px;
     margin: 0 auto;
+
 }
 
 .square {
-    width: 100%;
-    padding-top: 100%;
-    position: relative;
-    perspective: 1000px;
-    background-color: darkred;
+  width: 100%;
+  padding-top: 100%; 
+  position: relative;
+  perspective: 1000px; 
 }
 
 .face {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backface-visibility: hidden;
-    transition: transform 0.5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #007bff;
-    color: #fff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.front {
+  background-color: #007bff;
+  color: #fff;
+  /* Additional front face styling */
+}
+
+.back {
+  background-color: #f0f0f0;
+  color: #333;
+  transform: rotateY(180deg);
+  /* Additional back face styling */
 }
 
 .face.back {
-    background-color: #f0f0f0;
+    background-color: #fff; 
     color: #333;
     transform: rotateY(180deg);
 }
 
 .square:hover .front {
-    box-shadow: 0 0 20px rgba(0, 123, 255, 0.7);
+  /* Add glow effect on hover */
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.7);
 }
 
 .square.flipped .front {
-    transform: rotateY(180deg);
+
+  transform: rotateY(180deg);
 }
 
 .square.flipped .back {
-    transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  color: black;
 }
