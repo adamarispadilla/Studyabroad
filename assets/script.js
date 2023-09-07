@@ -1,7 +1,8 @@
-  const squares = document.querySelectorAll('.square');
+const squareContainer = document.querySelector('.square-container');
 
-  squares.forEach((square) => {
-    square.addEventListener('click', () => {
-      square.classList.toggle('flipped');
-    });
-  });
+squareContainer.addEventListener('click', (event) => {
+  const clickedSquare = event.target.closest('.square');
+  if (clickedSquare) {
+    clickedSquare.classList.toggle('flipped');
+  }
+});
