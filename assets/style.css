@@ -53,6 +53,31 @@ main {
 
 .photo-container{
     padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
+.tooltip-trigger {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
 
+.tooltip-text {
+  position: absolute;
+  bottom: 100%; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none; 
+}
+
+.tooltip-trigger:hover .tooltip-text {
+  opacity: 1;
+}
