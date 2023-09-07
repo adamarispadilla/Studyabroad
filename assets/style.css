@@ -74,9 +74,9 @@ main {
   transform-origin: center bottom; 
 }
 
-.tooltip-text {
+.tooltip-text-first {
   position: absolute;
-  top: -30px; 
+  top: -30%; 
   transform: translateX(-50%);
   background-color: rgb(83 132 208 / 70%);
   color: #fff;
@@ -119,7 +119,7 @@ main {
   transform: scale(1.1); 
 }
 
-.tooltip:hover .tooltip-text, 
+.tooltip:hover .tooltip-text-first, 
 .tooltip:hover .tooltip-text-below,
 .tooltip:hover .tooltip-text-right {
   opacity: 1;
