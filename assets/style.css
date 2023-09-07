@@ -147,7 +147,6 @@ main {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   max-width: 600px;
-  margin: 0 auto;
 }
 
 .square {
