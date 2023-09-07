@@ -21,6 +21,7 @@ header {
 
 h1 {
     font-size: 2.5rem;
+    line-height: 1.2;
 
 }
 
@@ -41,6 +42,7 @@ nav a {
     color: #007bff;
     font-weight: bold;
     transition: color 0.3s ease;
+    font-size: 1.2rem;
 }
 
 nav a:hover {
@@ -53,7 +55,8 @@ nav ul li a {
 }
 
 main {
-    text-align: center; 
+    text-align: center;
+    font-size: 1.5rem; 
 }
 
 .photo-container{
