@@ -89,15 +89,18 @@ main {
     padding: 5px 10px;
     border-radius: 10px;
     opacity: 0;
+    width: 100%;
+    text-align: center;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease;
     transform-origin: center top;
     box-shadow: inset 1px 1px 100px 0px rgb(48 123 255);
 }
 
 .tooltip-text-below {
-position: absolute;
+    position: absolute;
     top: 90%; 
     left:50%;
+    width: 100%;
     transform: translateX(-50%);
     color: #28282866;
     padding: 5px 10px;
@@ -106,15 +109,18 @@ position: absolute;
     transform-origin: center top;
     box-shadow: inset 1px 1px 100px 0px rgb(48 123 255);
     opacity: 0;
+    text-align: center;
 }
 
 .tooltip-text-right{
     position: absolute;
     top: -20%; 
-    left:130%;
+    left:180%;
     transform: translateX(-50%);
     color: #28282866;
     padding: 5px 10px;
+    width: 100%;
+    text-align: center;
     border-radius: 10px;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease;
     transform-origin: center top;
