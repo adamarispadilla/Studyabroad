@@ -78,7 +78,7 @@ main {
   position: absolute;
   top: -30px; 
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(83 132 208 / 70%);
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -89,10 +89,10 @@ main {
 
 .tooltip-text-below {
   position: absolute;
-  top: 100%; 
+  top: 90%; 
   left:50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(83 132 208 / 70%);
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -104,9 +104,9 @@ main {
 .tooltip-text-right{
   position: absolute;
   top: -20%; 
-  left:100%;
+  left:130%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(83 132 208 / 70%);
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
