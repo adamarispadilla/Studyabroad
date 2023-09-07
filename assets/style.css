@@ -138,3 +138,59 @@ main {
   opacity: 1;
   transform: translateY(-10px) translateX(-50%); 
 }
+
+
+/*page 2*/
+
+.square-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.square {
+  width: 100%;
+  padding-top: 100%; 
+  position: relative;
+  perspective: 1000px; 
+}
+
+.face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.front {
+  background-color: #007bff;
+  color: #fff;
+
+}
+
+.back {
+  background-color: #f0f0f0;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+.square:hover .front {
+
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.7);
+}
+
+.square.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.square.flipped .back {
+  transform: rotateY(0deg);
+}
+
