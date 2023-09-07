@@ -149,13 +149,13 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     max-width: 800px;
-    margin: -150px auto 0;
+    margin: 0 auto;
 
 }
 
 .square {
   width: 100%;
-  padding-top: 60%; 
+  padding-top: 100%; 
   position: relative;
   perspective: 1000px; 
 }
