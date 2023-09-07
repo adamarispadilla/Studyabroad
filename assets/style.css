@@ -53,9 +53,9 @@ main {
 
 .photo-container{
     display: flex;
-    padding: 10%;
     align-items: center;
-    margin: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .tooltip {
