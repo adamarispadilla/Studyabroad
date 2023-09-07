@@ -148,14 +148,14 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    max-width: 300px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: -150px auto 0;
 
 }
 
 .square {
   width: 100%;
-  padding-top: 100%; 
+  padding-top: 60%; 
   position: relative;
   perspective: 1000px; 
 }
