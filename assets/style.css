@@ -22,7 +22,7 @@ h1 {
     font-size: 2.5rem;
     line-height: 1.2;
     color: white;
-    text-shadow: skyblue 1px 0 10px;
+    text-shadow: #007bff 1px 0 10px;
 }
 
 
@@ -59,7 +59,8 @@ nav ul li a {
 
 main {
     text-align: center;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
+    color: #007bff; 
 }
 
 .photo-container{
